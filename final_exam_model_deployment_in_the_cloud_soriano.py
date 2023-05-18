@@ -30,7 +30,7 @@ Follow the instructions on deploying a model using Streamlit App in the cloud.
 Note: An accessible URL of the APP should be submitted. Also, upload the Github repo link. Strictly no straight copying from the internet.
 """
 
-!pip install streamlit
+#!pip install streamlit
 #!streamlit hello
 #Github Link: https://github.com/qgsoriano1/EmTech2_Final-Exam.git
 
