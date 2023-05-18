@@ -1,0 +1,10 @@
+Github Link: https://github.com/qgsoriano1/EmTech2_Final-Exam
+
+Colab Links:
+https://colab.research.google.com/drive/1oItdOB1yunolWlG5_8TLJ9qxz6h0tI3N#scrollTo=sRARWquS20O1
+https://colab.research.google.com/drive/1weGBVMAcRWlD7d229fHOFah7FTrI6LPv
+
+Streamlit Links:
+https://share.streamlit.io
+https://qgsoriano1-emtech2-final-exam-streamlit-soriano-3nfqd0.streamlit.app/
+https://qgsoriano1-emtech2-final-exam-streamlit-soriano2-0-ivhy84.streamlit.app/
