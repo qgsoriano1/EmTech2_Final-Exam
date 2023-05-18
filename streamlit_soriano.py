@@ -9,14 +9,14 @@ Original file is located at
 
 from google.colab import drive
 drive.mount('/content/drive')
-!pip install streamlit
+#!pip install streamlit
 
 import streamlit as st
 import tensorflow as tf
 
 @st.cache_resource
 def load_model():
-  model=tf.keras.models.load_model('/content/drive/MyDrive/Colab Notebooks/sets/bestbest_model.h5')
+    model=tf.keras.models.load_model('bestbest_model.h5')
   return model
 model=load_model()
 st.write("""
