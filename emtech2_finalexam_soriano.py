@@ -21,7 +21,7 @@ st.write("""
 # Weather Prediction Application 
 # Predict the weather like a weather forecaster"""
 )
-file=st.file_uploader("Select any weather-related image from your device",type=["jpg","png"])
+file=st.file_uploader("Upload any weather-related image...",type=["jpg","png"])
 
 import cv2
 from PIL import Image,ImageOps
@@ -34,7 +34,7 @@ def import_and_predict(image_data,model):
     prediction=model.predict(img_reshape)
     return prediction
 if file is None:
-    st.text("You may now upload your chosen image file (paste your weather photograph here)")
+    st.text("Please choose any weather-related image...")
 else:
     image=Image.open(file)
     st.image(image,use_column_width=True)
